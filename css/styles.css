@@ -283,3 +283,29 @@ footer #footer-links {
     margin-bottom: 10px;
   }
 }
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+
+  #banner-container {
+    display: none;
+  }
+
+  #main-container,
+  #form-box {
+    margin-top: 0;
+  }
+
+  footer {
+    width: 90%;
+  }
+
+  #footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
